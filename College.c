@@ -1,4 +1,5 @@
 #include<stdio.h>
+# define PI =3.1416;
 void main(){
 	//Day 1
     //printf("Hello World");
@@ -48,8 +49,10 @@ void main(){
 	// int a=0xA;//0 is for octal it will ignore,0b for binary,if nothing is there then decimal and 0x for hexadecimal
 	// printf("%d",a); //  for octal o and d for decimal
 	
-	// Backslash (Escape Sequences= non printing character)
-	printf("Hello NCCS\n");
+	// Backslash (Escape Sequences= non printing character because it it not seen in output)
+	// imp=/n,\t= space between them horizontal space,"\"  \"" = to put double quote,
+	printf("\"Hello NCCS\"");
 	printf("Hello Nepal");
+	
 	
 }
