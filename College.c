@@ -112,11 +112,7 @@ void main(){
 
     div=(float)num1/num2; // (float) is requried because it will provide the value in decimal
     printf("\nThe division of %d and %d is %f",num1,num2,div);
-    
-    
-    
-    
-    
+
     return 0; // it will end or terminate the program
     getch(); //to hold the screen
 	//scanf("%d",&num1); // & for address
