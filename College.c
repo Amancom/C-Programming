@@ -62,6 +62,9 @@ void main(){
 	//printf("The numbers are %d.",c);
 	
 	//sir
+	// ** question
+    // 1) Write a program that accepts two numbers and calculates their additon,substraction,
+    // multiplication,division and modulus. And display all the result on screen.
 	// it should be user friendly output must be clear so that user can understand it.
 	// like this is user friendly
 	
