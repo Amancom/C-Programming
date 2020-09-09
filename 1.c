@@ -1,8 +1,4 @@
 #include<stdio.h>
-int main(){
-	printf("echo %ErrorLevel%");
-	
-	
-	
-	
+void main(){
+    printf("Hello World");
 }
