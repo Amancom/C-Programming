@@ -4,9 +4,11 @@ void main(){
 
 
 
-char s3;
+char s;
 printf("Enter alphabet to know the ASCII number:"),
-scanf("%c",&s3);
-printf("The ASCII number is %d.",s3);
+scanf("%c",&s);
+
+
+printf("The ASCII number is %d.",s);
 	
 }
