@@ -7,12 +7,9 @@ void main()
 	printf("Enter a number to find out the square root:");
 	scanf("%f",&a);
 	
-	b=sqrt(a);
-	printf("The square root of %.0f is %.1f.",a,b);
+	a=sqrt(b);
+	printf("The square root of %f is %f",b);
 	return 0;
-	
-	
-	
 	
 	
 	

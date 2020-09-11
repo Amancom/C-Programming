@@ -7,7 +7,7 @@ void main()
 	scanf("%f",&indian);
 	
 	nepali=indian*1.60;
-	printf("The total amount in Nepali Currency is %.3f",nepali);
+	printf("The total amount of %.1f in Nepali Currency is %.2f.",indian,nepali);
 	return 0;
 }
 
