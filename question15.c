@@ -7,7 +7,7 @@ void main()
 	scanf("%d",&meter);
 	
 	cm=meter*100;
-	printf("The number in cm is %.2d cm.",cm);
+	printf("The conversion of %dm in cm is %.2d cm.",meter,cm);
 	return 0;
 	
 	

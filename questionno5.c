@@ -7,12 +7,9 @@ void main()
 	scanf("%f",&dollar);
 	
 	rupees = dollar*117.70;
-	printf("The Nepalese Rupees is %f",rupees);
+	printf("The Nepalese Rupees of $%.1f is %.2f",dollar,rupees);
 	return 0;
 	
 	
-	
-	
-	
-	
+
 }
