@@ -13,8 +13,8 @@ void main()
     all=0.4*salary;
     printf("\nThe allowance amount of salary is Rs%d.",all);
     
-    net=salary-tax-all;
-    printf("\nThe net salary is %d",net);
+    net=(salary-tax)+all;
+    printf("\nThe net salary is %d.",net);
     
     return 0;
 	
