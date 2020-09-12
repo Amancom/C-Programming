@@ -3,16 +3,11 @@
 #include<math.h>
 void main()
 {
-	int number,rt;
+	int number,result;
 	printf("Enter number:");
 	scanf("%d",&number);
-	
-	rt=sqrt(number);
-	printf("The square number of %d is %d.",number,rt);
+	result= sqrt(number);
+	printf("The square number of %d is %d.",number,result);
 	return 0;
-	
-	
-	
-	
 	
 }

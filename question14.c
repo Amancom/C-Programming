@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-	float cent,fah;
-	printf("Enter the temperature in celisus:");
-	scanf("%f",&cent);
+	float centigrade,fah;
+	printf("Enter the temperature in centigrade:");
+	scanf("%f",&centigrade);
 	
-	 fah=(cent*1.8)+32;
-	 printf("The conversion of celisun into fahrenheit of %.2f is %.2f.",cent,fah);
+	 fah=(centigrade*1.8)+32;
+	 printf("The conversion of celisun into fahrenheit is %.2f.",fah);
 	 return 0;
 	
 }
