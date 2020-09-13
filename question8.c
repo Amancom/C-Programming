@@ -2,8 +2,6 @@
 #include<conio.h>
 void main(){
 
-
-
 char s;
 printf("Enter alphabet to know the ASCII number:"),
 scanf("%c",&s);

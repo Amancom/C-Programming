@@ -7,10 +7,10 @@ void main()
 	scanf("%f",&a);
 	
 	square=a*a;
-	printf("The square of the number is:%.2f",square);
+	printf("The square of %.1f is:%.1f.",a,square);
 	
 	cube=square*a;
-	printf("\nThe cube of the number is:%.2f",cube);
+	printf("\nThe cube of %.1f is:%.1f.",a,cube);
 	
 	return 0;
 	

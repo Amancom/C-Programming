@@ -11,7 +11,7 @@ void main()
 	
 	printf("\nThe value for sin(%.1f) =%.2f",a,sin(degree));
 	printf("\nThe value for cos(%.1f) =%.2f",a,cos(degree));
-	printf("\nThe value fortan(%.1f) =%.2f",a,tan(degree));
+	printf("\nThe value for tan(%.1f) =%.2f",a,tan(degree));
 	
 	
 	

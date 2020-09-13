@@ -7,7 +7,7 @@ void main()
 	scanf("%f",&rupees);
 	
 	dollar=rupees*0.0085;
-	printf("The total curreny is:$%.2f",dollar);
+	printf("The conversion of Rs %0.1f into Dollar is:$%.2f",rupees,dollar);
 	return 0;
 	
 }
