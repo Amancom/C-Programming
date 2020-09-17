@@ -2,3 +2,4 @@
 2 else
 3 else if
 4 switch
+5 while loop
