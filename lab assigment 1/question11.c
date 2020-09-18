@@ -14,7 +14,6 @@ void main()
 	b=c;
 	
 	printf("\nValues after swapping is a=%d b=%d.",a,b);
-	getch();
 	
 	
 	

@@ -6,14 +6,10 @@ void main()
 	printf("Enter two numbers:\n");
 	scanf("%d %d",&a,&b);
 	
-	diff=(a>b)?(b):(b-a);
+	diff=(a>b)?(a):(a-b);
 	printf("The difference is %d",diff);
-	sum=(a<b)?(b):(b+a);
+	sum=(b>a)?(b):(a+b);
 	printf("\nThe sum is %d",sum);
-
-
-
-
 return 0;
 }
 

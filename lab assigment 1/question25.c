@@ -2,23 +2,23 @@
 #include<conio.h>
 void main()
 {
-	int a,b,c,d,e,total,per;
+	float a,b,c,d,e,total,per;
 	printf("Enter your marks of Maths:");
-	scanf("%d",&a);
+	scanf("%f",&a);
 	printf("Enter your marks of Network:");
-	scanf("%d",&b);
+	scanf("%f",&b);
 	printf("Enter your marks of C:");
-	scanf("%d",&c);
+	scanf("%f",&c);
 	printf("Enter your marks of Sociology:");
-	scanf("%d",&d);
+	scanf("%f",&d);
 	printf("Enter your marks of Communication:");
-	scanf("%d",&e);
+	scanf("%f",&e);
 	
 	total=a+b+c+d+e;
-	printf("The total marks obtained by student is %d.",total);
+	printf("The total marks obtained by student is %.2f.",total);
 	
-	per=(total/500)*100;
-    printf("\nThe percentage obtained by student is %d percentage.",per);
+	per= total/500 * 100;
+    printf("\nThe percentage obtained by student is %.2f percentage.",per);
 	return 0;
 	
 	

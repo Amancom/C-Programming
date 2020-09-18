@@ -23,7 +23,7 @@ void main()
   printf("\nThe modulus of the numbers is %d", modulus);
     
   div =(float)a/b;
-  printf("\nThe division of the numbers is %f",div);
+  printf("\nThe division of the numbers is %.2f",div);
   
   
   return 0;

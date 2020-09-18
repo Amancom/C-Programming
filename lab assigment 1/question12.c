@@ -4,12 +4,12 @@
 void main()
 {
 	
-	float a,b;
+	int a,b;
 	printf("Enter a number to find out the square root:");
-	scanf("%f",&a);
+	scanf("%d",&a);
 	
 	b=sqrt(a);
-	printf("The square root of %.1f is %.1f.",a,b);
+	printf("The square root of %d is %d.",a,b);
 	return 0;
 	
 	
