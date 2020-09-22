@@ -9,19 +9,18 @@ switch(n)
 {
 	case 1: printf("Its momo");
 	break;
-	case 2: printf("Its pizza");
+		case 2: printf("Its Pizza.");
 	break;
-	case 3: printf("Its noodles");
+		case 3: printf("Its Noodles.");
 	break;
-	case 4: printf("Its burger");
+		case 4: printf("Its Burger.");
 	break;
-	case 5: printf("Its fry rice");
+		case 5: printf("Its FryRice.");
 	break;
-	case 6: printf("Its exit");
+		case 6: printf("Its Exit.");
 	break;
-	default: printf("Enter the numbers below 7");
+	default:printf("Enter the number below 7. Thank You!!");
 	break;
-	
 }
 
 
