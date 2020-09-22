@@ -5,7 +5,6 @@ void main()
 	int n;
 	printf("Enter a number from 30 to 60:");
 	scanf("%d",&n);
-	
 	printf("Even numbers are:");
 	while(n>=30&&n<=60)
 	{
