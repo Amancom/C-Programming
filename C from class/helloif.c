@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
-void main(){
-int n;
-printf("Enter a number:");
-scanf("%d",&n);
-if(n<0)
+void main()
 {
-	printf("%d is negative.",n);
+int a;
+printf("Enter a number:");
+scanf("%d",&a);
+if(a>10)
+{
+	printf("Hello!!",a);
 }
 return 0;
 }
-
 
