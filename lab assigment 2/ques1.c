@@ -3,7 +3,7 @@
 void main()
 {
  char a,lower,upper;
- printf("Enter your desired character in lowercase:");
+ printf("Enter your desired character:");
  scanf("%c",&a);
  
  upper=a-32;
